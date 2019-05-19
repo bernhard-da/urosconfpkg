@@ -12,3 +12,18 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/bernhard-da/urosconfpkg
 BugReports: https://github.com/bernhard-da/urosconfpkg/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Depends: R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat,
+    lintr,
+    covr
+VignetteBuilder: knitr
+Imports: 
+    glue,
+    Rcpp
+LinkingTo: 
+    Rcpp

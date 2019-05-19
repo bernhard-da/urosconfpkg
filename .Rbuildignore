@@ -1,2 +1,6 @@
 ^urosconfpkg\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+^\.travis\.yml$
+^data-raw$
+^codecov\.yml$
